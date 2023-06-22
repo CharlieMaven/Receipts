@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.divider {
+    margin: 0;
+    height: 10px;
+    border-bottom: solid 10px rgb(25,52,84);
+
+}
+
+nav {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+ /* Inline navbar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(61,61,61);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+.highlight {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+footer p {
+    width: 1000px;
+    margin: 0 auto;
+}
