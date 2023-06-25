@@ -35,6 +35,7 @@ ul {
   li {
     float: left;
     padding: 20px 0;
+    font-family: Raleway;
   }
   
   li a {
@@ -51,6 +52,13 @@ ul {
   }
 
 .highlight {
+    width: 100%;
+    margin: 0 ;
+    height: 180px;
+    background-color: rgba(246,245,243,0.7);
+}
+
+.highlight-text {
     width: 1000px;
     margin: 0 auto;
 }
@@ -58,6 +66,18 @@ ul {
 main {
     width: 1000px;
     margin: 0 auto;
+    display: flex;
+}
+
+.meals {
+  flex-grow: 7;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+sidebar {
+  flex-grow: 3;
 }
 
 footer p {
